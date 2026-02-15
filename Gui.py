@@ -8,7 +8,7 @@ class App(Ui_KeyCalc):
         self.set_up_connections()
         self.update()
 
-    #Sets Up the Changes and connections needed to connect the front end to te back end
+    #Sets Up the Changes and connections needed to connect the Gui end to the back end logic
     def set_up_connections(self):
         for button in self.frame.children():
             if isinstance(button, QtWidgets.QPushButton):
